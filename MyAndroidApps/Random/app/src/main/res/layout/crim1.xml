@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crim1"
+    android:padding="8dp">
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:id="@+id/case_story"
+        android:background="@drawable/case_study"/>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="480dp"
+        android:background="@drawable/butt"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:id="@+id/cased"/>
+    </ScrollView>
+
+    <Button
+        android:text="Collect DNA"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:id="@+id/collect_dna"
+        android:background="@drawable/opt"/>
+</LinearLayout>
+    </ScrollView>

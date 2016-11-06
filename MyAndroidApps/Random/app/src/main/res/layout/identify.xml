@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <TextView
+        android:text="IDENTIFY THE IMAGE"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+        android:background="@drawable/butt"/>
+        <TextView
+            android:text="Question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/q" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/areuready"
+        android:id="@+id/question" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="2dp">
+    <Button
+        android:text="Click To Generate Picture"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:id="@+id/gen"
+        android:background="@drawable/game"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:text="A"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/a"
+                android:background="@drawable/opt"/>
+            <TextView
+                android:text="Option A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:id="@+id/option1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:text="B"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/b"
+                android:background="@drawable/opt"/>
+            <TextView
+                android:text="Option B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:id="@+id/option2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:text="C"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/c"
+                android:background="@drawable/opt"/>
+            <TextView
+                android:text="Option C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:id="@+id/option3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:text="D"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/d"
+                android:background="@drawable/opt"/>
+            <TextView
+                android:text="Option D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:id="@+id/option4" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:text="Response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/resp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+        <TextView
+            android:text="Timer"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:id="@+id/timer"
+            android:gravity="center"
+            android:background="@drawable/timer"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

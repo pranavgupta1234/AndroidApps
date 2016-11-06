@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity"
+    android:padding="8dp">
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="8dp">
+    <TextView
+        android:text="FIND SEGMENT FARTHEST AND NEAREST TO CATHODE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/description"
+        android:padding="5dp"
+        android:background="@drawable/butt"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+        <TextView
+            android:text="Timer"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:id="@+id/timer"
+            android:gravity="center"
+            android:background="@drawable/timer"/>
+    <TextView
+        android:text="Given Result"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/ques"
+        android:background="@drawable/seq"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:textAlignment="center">
+    <TextView
+        android:text="Ist Segment's number of Base Pairs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:id="@+id/op1" />
+
+    <TextView
+        android:text="IInd Segment's number of Base Pairs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:id="@+id/op2" />
+
+    <TextView
+        android:text="IIIrd Segment's number of Base Pairs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:id="@+id/op3" />
+
+    <TextView
+        android:text="IVth Segment's number of Base Pairs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:id="@+id/op4" />
+    </LinearLayout>
+
+    <Button
+        android:text="Click To Get Electrophoresis Result"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/game"
+        android:id="@+id/question" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="3dp">
+            <Button
+                android:text="A"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/a"
+                android:background="@drawable/opt"/>
+
+            <TextView
+                android:text="Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:id="@+id/option1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp">
+            <Button
+                android:text="B"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/b"
+                android:background="@drawable/opt"/>
+            <TextView
+                android:text="Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:id="@+id/option2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_gravity="center">
+            <Button
+                android:text="C"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/c"
+                android:background="@drawable/opt"/>
+
+            <TextView
+                android:text="Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:id="@+id/option3" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+            <Button
+                android:text="D"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/d"
+                android:background="@drawable/opt"/>
+            <TextView
+                android:text="Option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:id="@+id/option4" />
+                </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:text="Response"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:id="@+id/resp"
+            android:background="@drawable/opt"/>
+        <TextView
+            android:text="FUNFACTS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/funfacts"/>
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
